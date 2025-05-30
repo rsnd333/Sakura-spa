@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
+
+* {
+    font-family: "Meera Inimai", sans-serif;
+    font-style: normal;
+}
+
+:root {
+    --cor-um: #E6B2BA;
+    --cor-dois: #5F7464;
+    --cor-tres: #243D25;
+    --cor-quatro: #FDFAF6;
+    --cor-cinco: #E4AEC5;
+    --cor-seis: #E7CCCC;
+    --cor-sete: #000000;
+}
+
+.navbar {
+    background-color: var(--cor-um);
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    color: var(--cor-quatro);
+    font-size: 2.7rem;
+}
+
+.nav .nav-link.active {
+    background-color: var(--cor-tres);
+    color: var(--cor-quatro);
+}
+
+.nav .nav-link {
+    font-size: 1.3rem;
+    color: var(--cor-quatro);
+}
+
+.navbar-toggler {
+    background-color: var(--cor-quatro);
+}
+
+#sobre-spa {
+    background-color: var(--cor-tres);
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+.row h2,
+h3,
+p,
+ul {
+    color: var(--cor-quatro);
+}
+
+#atividades {
+    background-color: var(--cor-dois);
+}
+
+#estrutura {
+    background-color: var(--cor-cinco);
+}
+
+.contato {
+    background-color: var(--cor-quatro);
+}
+
+.contato .endereco {
+    color: var(--cor-tres);
+}
+
+.form,
+.btn {
+    color: var(--cor-tres);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.bi-facebook,
+.bi-instagram,
+.bi-whatsapp,
+.bi-geo-alt {
+    color: var(--cor-tres);
+}
+
+.btn {
+    background-color: var(--cor-um);
+}
+
+.btn:hover {
+    background-color: var(--cor-seis);
+}
+
+.rodape,
+.inner-footer {
+    background-color: var(--cor-um);
+    color: var(--cor-quatro);
+}
